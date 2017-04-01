@@ -1,0 +1,76 @@
+ <!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>南苑计协维修系统</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+		<style type="text/css">
+		.row{
+			margin-left: 0;
+			margin-right: 0;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h4>订单列表</h4>
+		</div>
+
+		<div class="content">
+			<div class="row">
+				<div class="col-xs-3">
+					<h5 style="padding-left: 16px">用户</h5>
+				</div>
+				<div class="col-xs-7">
+					<h5 style="padding-left:5px">内容</h5>
+				</div>
+				<div class="col-xs-2">
+					<h5>快捷分配</h5>
+				</div>
+			</div>
+			<ul class="list-group">
+				<volist name="orders" id="item">
+					<div class="list-group-item">
+						<div class="row">
+							<a href="{:U('BackgroundAdmin/OrderDistribute/checkDetail',array('id'=>$item['id']))}">
+								<div class="col-xs-3">
+								{$item['mobile']}
+								</div>
+								<div class="col-xs-4">
+									{$item['content']}
+								</div>
+							</a>
+							<div align="right" class="col-xs-5">
+								<form action="{:U('BackgroundAdmin/OrderDistribute/distributeOrder')}" method="post" style="display:inline">
+									<input type="text" name="id" value="{$item['id']}" style="visibility: hidden;display: none">
+									<select name="selectAdmin" id="selectAdmin">
+										<volist name="admins" id="admin">
+											<option value="{$admin['id']}">{$admin['name']}</option>
+										</volist>
+									</select>
+									<input type="submit" class="btn btn-primary" value="提交">
+								</form>
+                <button class="btn btn-danger" onclick="closeOrder({$item['id']})">
+                  关闭订单
+                </button>
+							</div>
+						</div>
+					</div>
+				</volist>
+			</ul>
+		</div>
+    <input type="text" style="display:none" id="closeOrderAjax" name="" value="{:U('BackgroundAdmin/OrderDistribute/closeOrder')}">
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      var closeOrder = function(orderId){
+        if(!confirm('确定关闭该订单?')){
+          return ;
+        }
+        window.location.href = ($('#closeOrderAjax').val() + "?id=" + orderId);
+      }
+    </script>
+	</body>
+</html>

@@ -1,0 +1,30 @@
+[ 2016-11-22T19:26:23+08:00 ] ::1 /ACM/repairSystem/User/addAdmin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+ERR: 无法加载模块:User
+
+[ 2016-11-22T19:27:04+08:00 ] ::1 /ACM/repairSystem/NewsCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+ERR: 无法加载模块:NewsCenter
+
+[ 2016-11-22T19:33:21+08:00 ] ::1 /ACM/repairSystem/NewsCenter
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+ERR: 无法加载模块:NewsCenter
+
+[ 2016-11-22T22:19:29+08:00 ] ::1 /ACM/repairSystem/CheckOrder/checkOrderView
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+ERR: 无法加载模块:CheckOrder
+
+[ 2016-11-22T23:09:17+08:00 ] ::1 /repair_system/SchoolmateOrganize
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+ERR: 无法加载模块:SchoolmateOrganize
+

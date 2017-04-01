@@ -1,0 +1,81 @@
+ <!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+		<title>南苑计协维修系统</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+		<style type="text/css">
+			.header {
+				width:100%;
+				height:50px;
+				line-height: 50px;
+				background-color: #999;
+				color:#fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div align="center" class="header">
+			<if condition="$data['state'] eq 2">
+				<div style="position: absolute;right:5px">
+					<a href="{:U('Home/CheckOrder/orderJudgeView',array('id'=>$data['id']))}" class="btn btn-warning">
+						评价
+					</a>
+				</div>
+			</if>
+			<a href="javascript:history.back()" style="position:absolute;color:#fff;left:16px">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			维修单详情
+		</div>
+
+		<div class="content">
+			<ul class="list-group">
+				<li class="list-group-item">
+					订单：No.{$data['id']}
+				</li>
+				<li class="list-group-item">
+					状态：
+					<if condition="$data['state'] eq 0">
+						<span style="color:red">
+							{$data['stateName']}
+						</span>
+					</if>
+					<if condition="$data['state'] eq 1 or $data['state'] eq 2">
+						<span style="color:orange">
+							{$data['stateName']}
+						</span>
+					</if>
+					<if condition="$item['state'] egt 3">
+						<span style="color:#44e">
+							{$data['stateName']}
+						</span>
+					</if>
+				</li>
+				<li class="list-group-item">
+					干事：{$data['name']}
+				</li>
+				<li class="list-group-item">
+					联系：{$data['mobile']}
+				</li>
+				<li class="list-group-item">
+					维修日志：
+					<volist name="atoMsg" id="item">
+						<div class="row" style="padding-left: 16px">
+							<div class="col-xs-7" style="color:#999">
+								{$item['date']}
+							</div>
+							<div class="col-xs-5">
+								{$item['msg']}
+							</div>
+						</div>
+					</volist>
+				</li>
+			</ul>
+		</div>
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	</body>
+</html> 

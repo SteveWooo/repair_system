@@ -1,0 +1,125 @@
+[ 2016-11-23T10:59:33+08:00 ] ::1 /repair_system/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000092s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-11-23T10:59:40+08:00 ] ::1 /repair_system/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479869980') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0005s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','123','123') [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000593s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2016-11-23T11:00:52+08:00 ] ::1 /repair_system/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004388s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000353s ]
+
+[ 2016-11-23T11:01:37+08:00 ] ::1 /repair_system/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001737s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0005s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479870097') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0016s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','qweqwe','12') [ RunTime:0.0005s ]
+
+[ 2016-11-23T11:01:38+08:00 ] ::1 /repair_system/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003302s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000248s ]
+
+[ 2016-11-23T11:09:36+08:00 ] ::1 /repair_system/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479870575') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','炸了','上门服务','苹果') [ RunTime:0.0003s ]
+
+[ 2016-11-23T11:09:37+08:00 ] ::1 /repair_system/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000260s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011316s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000947s ]
+

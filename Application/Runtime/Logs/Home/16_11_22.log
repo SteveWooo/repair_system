@@ -1,0 +1,1063 @@
+[ 2016-11-22T18:10:51+08:00 ] ::1 /ACM/repairSystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000739s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000384s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2016-11-22T18:10:53+08:00 ] ::1 /ACM/repairSystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000243s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000108s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000243s ]
+
+[ 2016-11-22T18:35:34+08:00 ] ::1 /ACM/repairSystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000269s ]
+
+[ 2016-11-22T21:13:27+08:00 ] ::1 /ACM/repairSystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000515s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-11-22T21:13:31+08:00 ] ::1 /ACM/repairSystem/Home
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000085s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000107s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000238s ]
+
+[ 2016-11-22T21:13:42+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008339s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000466s ]
+
+[ 2016-11-22T21:17:20+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004840s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2016-11-22T21:17:42+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004669s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004718s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000482s ]
+
+[ 2016-11-22T21:18:11+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000458s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-11-22T21:18:54+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002804s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000421s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-22T21:19:00+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+
+[ 2016-11-22T21:19:45+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+
+[ 2016-11-22T21:20:07+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: 无法加载控制器:User
+
+[ 2016-11-22T21:20:51+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000317s ]
+ERR: 无法加载控制器:User
+
+[ 2016-11-22T21:21:06+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = 18929889966  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+ERR: 1264:Out of range value for column 'mobile' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`mobile`,`student_number`,`name`) VALUES ('18929889966','0','0')
+ERR: 1264:Out of range value for column 'mobile' at row 1
+ [ SQL语句 ] : INSERT INTO `user` (`mobile`,`student_number`,`name`) VALUES ('18929889966','0','0')
+
+[ 2016-11-22T21:24:03+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000516s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: INSERT INTO `user` (`mobile`,`student_number`,`name`) VALUES ('18929889966','0','0') [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_password` [ RunTime:0.0005s ]
+SQL: INSERT INTO `user_password` (`salt`,`password`,`account`,`id`) VALUES ('9696','0','18929889966','1') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_cookie` [ RunTime:0.0005s ]
+SQL: INSERT INTO `user_cookie` (`user_id`,`cookie`,`account`,`time`) VALUES ('1','b53a8fb8c8cbd7f26c988ca6e43424e9','18929889966','1479821041') [ RunTime:0.0004s ]
+SQL: INSERT INTO `user_auth` (`account`,`time`,`auth_code`) VALUES ('18929889966','1479821041','4484') [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 81 行.
+SQL: UPDATE `user_auth` SET `time`='1479821043' WHERE `account` = null [ RunTime:0.0004s ]
+
+[ 2016-11-22T21:24:25+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+
+[ 2016-11-22T21:24:49+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\UserController::isPhoneExist(), called in /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php on line 150 and defined /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 124 行.
+SQL: SELECT * FROM `user` WHERE `mobile` = null  [ RunTime:0.0001s ]
+
+[ 2016-11-22T21:25:23+08:00 ] ::1 /ACM/repairSystem/Home/Index/auth
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003067s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000230s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000252s ]
+
+[ 2016-11-22T21:25:28+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\UserController::isPhoneExist(), called in /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php on line 150 and defined /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 124 行.
+SQL: SELECT * FROM `user` WHERE `mobile` = null  [ RunTime:0.0001s ]
+
+[ 2016-11-22T21:25:38+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\UserController::isPhoneExist(), called in /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php on line 150 and defined /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 124 行.
+SQL: SELECT * FROM `user` WHERE `mobile` = null  [ RunTime:0.0001s ]
+
+[ 2016-11-22T21:25:54+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\UserController::isPhoneExist(), called in /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php on line 151 and defined /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 124 行.
+SQL: SELECT * FROM `user` WHERE `mobile` = null  [ RunTime:0.0002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:26:13+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+NOTIC: [2] Missing argument 1 for Home\Controller\UserController::isPhoneExist(), called in /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php on line 151 and defined /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 123 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 124 行.
+SQL: SELECT * FROM `user` WHERE `mobile` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: mobile /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 125 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:26:28+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auth_code /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 135 行.
+
+[ 2016-11-22T21:26:57+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: acount /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 131 行.
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: auth_code /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 137 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:27:13+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auth_code /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 137 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:27:28+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: auth_code /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/UserController.class.php 第 136 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:27:44+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000425s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000470s ]
+
+[ 2016-11-22T21:28:30+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000506s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0006s ]
+
+[ 2016-11-22T21:29:04+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0004s ]
+SQL: UPDATE `user_auth` SET `account`='18929889966',`time`='1479821041',`auth_code`='1651' WHERE `account` = '18929889966' [ RunTime:0.0016s ]
+SQL: UPDATE `user_auth` SET `time`='1479821344' WHERE `account` = '18929889966' [ RunTime:0.0005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:29:23+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0001s ]
+
+[ 2016-11-22T21:29:35+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2016-11-22T21:29:55+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-11-22T21:29:58+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000302s ]
+
+[ 2016-11-22T21:31:09+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000394s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+SQL: UPDATE `user_auth` SET `time`='1479821469' WHERE `account` = '18929889966' [ RunTime:0.0016s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:32:05+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+SQL: UPDATE `user_auth` SET `time`='1479821525' WHERE `account` = '18929889966' [ RunTime:0.0012s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T21:32:20+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+
+[ 2016-11-22T21:32:22+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+
+[ 2016-11-22T21:32:29+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0001s ]
+
+[ 2016-11-22T21:32:32+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0011s ]
+
+[ 2016-11-22T21:59:30+08:00 ] ::1 /ACM/repairSystem/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000558s ]
+
+[ 2016-11-22T21:59:38+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016192s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016222s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2016-11-22T21:59:54+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000412s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003573s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003624s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-11-22T22:00:00+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '142011042'  [ RunTime:0.0008s ]
+
+[ 2016-11-22T22:00:10+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000524s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004762s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004820s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2016-11-22T22:00:14+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '142011042'  [ RunTime:0.0021s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T22:00:29+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '142011042'  [ RunTime:0.0003s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T22:00:56+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+
+[ 2016-11-22T22:00:56+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/auth.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000185s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-11-22T22:01:03+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000387s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+SQL: UPDATE `user_auth` SET `account`='18929889966',`time`='1479821525',`auth_code`='5051' WHERE `account` = '18929889966' [ RunTime:0.0012s ]
+SQL: UPDATE `user_auth` SET `time`='1479823263' WHERE `account` = '18929889966' [ RunTime:0.0014s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Common/functions.php:850) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+
+[ 2016-11-22T22:01:45+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+
+[ 2016-11-22T22:01:59+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0006s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479823319') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','123','123') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000413s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000451s ]
+
+[ 2016-11-22T22:02:35+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479823355') [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','123','123') [ RunTime:0.0004s ]
+
+[ 2016-11-22T22:02:35+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-11-22T22:21:21+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+
+[ 2016-11-22T22:21:21+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/auth.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006393s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2016-11-22T22:21:26+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+SQL: UPDATE `user_auth` SET `account`='18929889966',`time`='1479823263',`auth_code`='5426' WHERE `account` = '18929889966' [ RunTime:0.0013s ]
+SQL: UPDATE `user_auth` SET `time`='1479824486' WHERE `account` = '18929889966' [ RunTime:0.0013s ]
+
+[ 2016-11-22T22:21:38+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000478s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+
+[ 2016-11-22T22:21:40+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000402s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0006s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479824500') [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','test',' test','test') [ RunTime:0.0008s ]
+
+[ 2016-11-22T22:21:41+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000970s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006235s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000389s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000427s ]
+
+[ 2016-11-22T22:30:15+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+
+[ 2016-11-22T22:30:16+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/auth.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005930s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2016-11-22T22:30:21+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/getAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0003s ]
+SQL: UPDATE `user_auth` SET `account`='18929889966',`time`='1479824486',`auth_code`='8656' WHERE `account` = '18929889966' [ RunTime:0.0006s ]
+SQL: UPDATE `user_auth` SET `time`='1479825021' WHERE `account` = '18929889966' [ RunTime:0.0015s ]
+
+[ 2016-11-22T22:30:33+08:00 ] ::1 /ACM/repairSystem/index.php/Home/User/checkAuthCodeAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000399s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `user_auth` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user_auth` WHERE `account` = '18929889966'  [ RunTime:0.0002s ]
+
+[ 2016-11-22T22:30:35+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0003s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479825035') [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0009s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','test','test','etst') [ RunTime:0.0005s ]
+
+[ 2016-11-22T22:30:35+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000533s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009597s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000621s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-11-22T22:31:22+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479825082') [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0008s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','etst','etst','test') [ RunTime:0.0010s ]
+
+[ 2016-11-22T22:31:23+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2016-11-22T22:31:40+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0013s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479825100') [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0011s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','test','test','test') [ RunTime:0.0004s ]
+
+[ 2016-11-22T22:31:40+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007215s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007285s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-11-22T22:31:44+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000864s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0028s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479825104') [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0006s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','123','123') [ RunTime:0.0004s ]
+
+[ 2016-11-22T22:31:49+08:00 ] ::1 /ACM/repairSystem/Home/Index/addOrder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000449s ]
+
+[ 2016-11-22T22:31:59+08:00 ] ::1 /ACM/repairSystem/index.php/Home/Index/addOrderAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `user` WHERE `mobile` = '18929889966'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: INSERT INTO `order_list` (`user_id`,`state`,`time`) VALUES ('1','0','1479825118') [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0095s ]
+SQL: INSERT INTO `order_detail` (`mobile`,`content`,`service_type`,`computer_type`) VALUES ('18929889966','123','123','123') [ RunTime:0.0005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /private/var/wwwroot/html/ACM/repairSystem/Application/Home/Controller/IndexController.class.php:85) /private/var/wwwroot/html/ACM/repairSystem/ThinkPHP/Library/Think/Controller.class.php 第 215 行.
+

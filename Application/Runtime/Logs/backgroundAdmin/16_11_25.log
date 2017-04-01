@@ -1,0 +1,477 @@
+[ 2016-11-25T14:20:24+08:00 ] ::1 /repair_system/backgroundAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011001 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-11-25T14:20:24+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011859s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011901s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000423s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2016-11-25T14:20:26+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011001' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009149s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009191s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+
+[ 2016-11-25T14:20:27+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003236s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+
+[ 2016-11-25T14:20:28+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/CheckOrder/checkOrderView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+
+[ 2016-11-25T14:20:28+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008892s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2016-11-25T14:20:29+08:00 ] ::1 /repair_system/index.php/backgroundAdmin/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000335s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017925s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2016-11-25T14:20:34+08:00 ] ::1 /repair_system/index.php/backgroundAdmin/User/loginAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `admin_password` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `admin_password` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2016-11-25T14:20:37+08:00 ] ::1 /repair_system/index.php/backgroundAdmin/User/loginAjax.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `admin_password` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_password` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0003s ]
+SQL: UPDATE `admin_cookie` SET `cookie`='b7361ec79242172446bd59620cfcbd6a' WHERE `account` = '142011042' [ RunTime:0.0013s ]
+
+[ 2016-11-25T14:20:38+08:00 ] ::1 /repair_system/backgroundAdmin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000253s ]
+
+[ 2016-11-25T14:20:38+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/Index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004378s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004427s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000269s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000294s ]
+
+[ 2016-11-25T14:20:41+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderDistribute/orderDistributeView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `order_list` WHERE `state` = 0  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `order_detail`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE ( auth < 5 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000096s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019504s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000575s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-11-25T14:20:42+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0039s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000493s ]
+
+[ 2016-11-25T14:20:49+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/adminFinishedOrder.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `admin_to_order` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_to_order` WHERE `task_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: UPDATE `order_list` SET `state`='2' WHERE `id` = 1 [ RunTime:0.0006s ]
+SQL: UPDATE `admin_to_order` SET `msg`='',`isend`='1' WHERE `task_id` = 3 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009287s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009417s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000495s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-11-25T14:20:50+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004828s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000232s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000254s ]
+
+[ 2016-11-25T14:20:51+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004627s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-25T14:23:01+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004541s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000236s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2016-11-25T14:23:02+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/CheckOrder/checkOrderView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order_list` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `order_detail` ORDER BY id desc  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000061s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009937s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000257s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000281s ]
+
+[ 2016-11-25T14:23:03+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000225s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000472s ]
+
+[ 2016-11-25T14:23:03+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/CheckOrder/checkOrderView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `order_list` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order_list` ORDER BY id desc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `order_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `order_detail` ORDER BY id desc  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2016-11-25T14:23:04+08:00 ] ::1 /repair_system/index.php/BackgroundAdmin/OrderTask/OrderTaskView.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000236s ]
+SQL: SHOW COLUMNS FROM `admin_cookie` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin_cookie` WHERE `account` = '142011042' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `admin` WHERE `student_number` = 142011042 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT a.task_id,b.state,b.time,b.user_id,b.id,c.mobile,c.content,c.computer_type,c.service_type,d.name
+		FROM admin_to_order as a,order_list as b,order_detail as c,user as d
+		where a.admin_id=1 and a.order_id=b.id and a.order_id=c.id and b.user_id=d.id 
+		order by a.task_id desc [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000182s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000308s ]
+
