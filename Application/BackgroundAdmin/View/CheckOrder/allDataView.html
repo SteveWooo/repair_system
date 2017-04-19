@@ -42,6 +42,9 @@
 									<li>
 										<strong>内容：</strong>{$order['content']}
 									</li>
+									<li>
+										<strong>状态：</strong>{$ador['isend'] == '1'?'已完成':'未完成'}
+									</li>
 									<foreach name="judges" item="judge">
 										<if condition="$judge['order_id'] eq $order['id']">
 											<li>
