@@ -1,0 +1,65 @@
+ <!DOCTYPE html>
+<html lang="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>南苑计协维修系统</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/indexFrame.css">
+		<style type="text/css">
+			ul li {
+				list-style: none;
+			}
+			.list-group-item {
+				border:none;
+				border-bottom:1px solid #eee;
+				border-top:1px solid #eee;
+			}
+			.row{
+				margin-left: 0;
+				margin-right: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div align="left" style="margin-left: 20px;margin-bottom:20px">
+			<h3>所有订单状态</h3>
+		</div>
+		<volist name="admins" id="admin">
+			<h4>
+				{$admin['name']}
+			</h4>
+			<div>
+				<volist name="ato" id="ador">
+					<if condition="$ador['admin_id'] eq $admin['id']">
+						<volist name="order_detail" id="order">
+							<ul>
+								<if condition="$order['id'] eq $ador['order_id']">
+									<li>
+										<strong>类型：</strong>{$order['service_type']}
+									</li>
+									<li>
+										<strong>内容：</strong>{$order['content']}
+									</li>
+									<foreach name="judges" item="judge">
+										<if condition="$judge['order_id'] eq $order['id']">
+											<li>
+												<strong>评价：</strong>{$judge['content']}
+											</li>
+										</if>
+									</foreach>
+									<hr>
+								</if>
+							</ul>
+						</volist>
+					</if>
+				</volist>
+			</div>
+		</volist>
+
+		
+		<script type="text/javascript" src="__PUBLIC__/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+	</body>
+</html>

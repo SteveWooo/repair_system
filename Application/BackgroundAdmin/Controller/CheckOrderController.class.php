@@ -133,4 +133,23 @@ class CheckOrderController extends Controller {
             $this->error('数据库修改失败');
         }
     }
+
+    private function getAllData(){
+        $admins = M('admin')->where('auth < 5')->select();
+        $this->assign('admins', $admins);
+
+        $ato = M('admin_to_order')->select();
+        $this->assign('ato', $ato);
+
+        $order_detail = M('order_detail')->select();
+        $this->assign('order_detail', $order_detail);
+
+        $judge = M('order_judge')->select();
+        $this->assign('judges', $judge);
+    }
+
+    public function allDataView(){
+        $this->getAllData();
+        $this->display();
+    }
 }
