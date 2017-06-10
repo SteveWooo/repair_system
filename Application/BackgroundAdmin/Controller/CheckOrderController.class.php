@@ -15,7 +15,7 @@ class CheckOrderController extends Controller {
         if($data == null){
             $this->error('登录状态出现不可预料的意外');
         }
-        if($data['cookie'] != $cookie){
+        if($data['cookie'] != $cookie){ 
             cookie('login', null);
             cookie('admin', null);
             $this->error('登录超时');
