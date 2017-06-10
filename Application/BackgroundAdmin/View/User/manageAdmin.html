@@ -21,7 +21,7 @@
 			</h3>
 		</header>
 		<hr>
-		
+
 		<div class="content">
 			<div class="row">
 				<div class="col-xs-3">
@@ -44,8 +44,11 @@
 							<div class="col-xs-3">
 								{$admin['name']}
 							</div>
-							<div class="col-xs-3" style="color:red">
-								{$admin['job']}
+							<div class="col-xs-1" style="color:red">
+								{$admin['job_name']}
+							</div>
+              <div class="col-xs-2" style="color:red;opacity:0.5">
+								({$admin['auth_name']}
 							</div>
 							<div class="col-xs-3">
 								{$admin['mobile']}
@@ -54,11 +57,11 @@
 								<button class="btn btn-danger" onclick="delAdmin({$admin['id']})">
 									开除
 								</button>
-							</div>	
+							</div>
 						</div>
 					</li>
-				</volist>	
-			</ul>	
+				</volist>
+			</ul>
 		</div>
 		<div style="display:none">
 			<div id="delAdmin">

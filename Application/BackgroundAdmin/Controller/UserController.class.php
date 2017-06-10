@@ -80,6 +80,32 @@ class UserController extends Controller {
     	$admin['mobile'] = $data['mobile'];
     	$admin['student_number'] = $data['student_number'];
     	$admin['auth'] = $data['auth'];
+      /*
+      1:老干事
+      2:干事
+      3:副部长
+      4:部长
+      */
+
+      switch($data['auth']){
+        case "1":
+          $admin['job_name'] = '老干事';
+        break;
+        case "2":
+          $admin['job_name'] = '干事';
+        break;
+        case "3":
+          $admin['job_name'] = '副部长';
+        break;
+        case "4":
+          $admin['job_name'] = '部长';
+        break;
+        default :
+          $admin['job_name'] = false;
+      }
+      if(!$admin['job_name']){
+        $this->errorReturn('权限错误');
+      }
     	$this->checkNewAdminData($data);
     	$result = M('admin')->add($admin);
     	if($result === false){
@@ -219,23 +245,28 @@ class UserController extends Controller {
         foreach ($admins as $key => $value) {
             switch($admins[$key]['auth']){
                 case '5':
-                    $admins[$key]['job'] = "超级管理员";
+                    $admins[$key]['job_name'] = $admins[$key]['job_name'] != null ? $admins[$key]['job_name'] : "超级管理员";
+                    $admins[$key]['auth_name'] = "超级管理员";
                 break;
 
                 case '4':
-                    $admins[$key]['job'] = "部长";
+                    $admins[$key]['job_name'] = $admins[$key]['job_name'] != null ? $admins[$key]['job_name'] : "部长";
+                    $admins[$key]['auth_name'] = "部长级";
                 break;
 
                 case '3':
-                    $admins[$key]['job'] = "副部长";
+                    $admins[$key]['job_name'] = $admins[$key]['job_name'] != null ? $admins[$key]['job_name'] : "副部长";
+                    $admins[$key]['auth_name'] = "副部长级";
                 break;
 
                 case '2':
-                    $admins[$key]['job'] = "干事";
+                    $admins[$key]['job_name'] = $admins[$key]['job_name'] != null ? $admins[$key]['job_name'] : "干事";
+                    $admins[$key]['auth_name'] = "干事级";
                 break;
 
                 case '1':
-                    $admins[$key]['job'] = "老干事";
+                    $admins[$key]['job_name'] = $admins[$key]['job_name'] != null ? $admins[$key]['job_name'] : "老干事";
+                    $admins[$key]['auth_name'] = "老干事级";
                 break;
             }
         }
