@@ -5,8 +5,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>南苑计协维修系统</title>
-		<link rel="stylesheet" type="text/css" href="/repair_system/Public/css/bootstrap.min.css">
-		<link rel="stylesheet" href="/repair_system/Public/css/indexFrame.css">
+		<link rel="stylesheet" type="text/css" href="/github/repair_system/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" href="/github/repair_system/Public/css/indexFrame.css">
 	</head>
 	<body>
 
@@ -25,7 +25,7 @@
 	                    <li class="nav-list active" name="welcome">
 	                        <a href="javascript:void(0)" onclick="router.action('welcome')">
 	                            <i class="glyphicon glyphicon-th-large"></i>
-	                            首页         
+	                            首页
 	                        </a>
 	                    </li>
 	                    <?php if($admin['auth'] >= 4): ?><li class="nav-list" name="system">
@@ -40,11 +40,11 @@
 		                            <li name="manageAdmin"><a href="javascript:void(0)" onclick="router.action('manageAdmin')"><i class="glyphicon glyphicon-asterisk"></i>修改用户</a></li>
 		                        </ul>
 		                    </li><?php endif; ?>
-						
+
 						<?php if($admin['auth'] >= 3): ?><li class="nav-list" name="orderDistribute">
 		                        <a href="javascript:void(0)" onclick="router.action('orderDistribute')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            干事订单分配       
+		                            干事订单分配
 		                        </a>
 		                    </li><?php endif; ?>
 
@@ -59,17 +59,17 @@
 		                        </ul>
 		                    </li><?php endif; ?>
 
-						<?php if($admin['auth'] >= 2): ?><li class="nav-list" name="orderTask">
+						<?php if($admin['auth'] >= 1): ?><li class="nav-list" name="orderTask">
 		                        <a href="javascript:void(0)" onclick="router.action('orderTask')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            个人订单任务      
+		                            个人订单任务
 		                        </a>
 		                    </li><?php endif; ?>
-	 					
+
 	 					<?php if($admin['auth'] >= 1): ?><li class="nav-list" name="checkOrder">
 		                        <a href="javascript:void(0)" onclick="router.action('checkOrder')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            订单查询       
+		                            订单查询
 		                        </a>
 		                    </li><?php endif; ?>
 	                    <!-- <li class="nav-list" name="../SchoolmateOrganize">
@@ -78,7 +78,7 @@
 	                            校友组织模块
 	                        </a>
 	                    </li>
-	 
+
 	                    <li class="nav-list" name="../SchoolmateActivity">
 	                        <a href="javascript:void(0);" onclick="router.action('../SchoolmateActivity')">
 	                            <i class="glyphicon glyphicon-calendar"></i>
@@ -115,22 +115,22 @@
 	                </ul>
 	            </div>
 	            <div class="col-md-10" >
-	                <iframe id="mainPage" src="/repair_system/index.php/BackgroundAdmin/Index/welcome.html" frameBorder="0" width="100%" scrolling="yes" height="800"></iframe>
+	                <iframe id="mainPage" src="/github/repair_system/index.php/BackgroundAdmin/Index/welcome.html" frameBorder="0" width="100%" scrolling="yes" height="800"></iframe>
 	            </div>
 	        </div>
 	    </div>
 	    <div class="footer">
 	    	<div class="title">
-	    		code by SteveWoo. version:1.0.4 name:快来拿护甲包！
+	    		code by SteveWoo. version:1.1.1 name:跟上我的节拍
 	    		<br>
-	    		birthday:2016-11-22
+	    		birthday:2017-3-7
 	    	</div>
 	    </div>
-		
+
 		<div style="visibility: hidden" hidden>
 			<div id="checkOrder">
 				<?php echo U('BackgroundAdmin/CheckOrder/checkOrderView');?>
-			</div>	
+			</div>
 			<div id="welcome">
 				<?php echo U('BackgroundAdmin/Index/welcome');?>
 			</div>
@@ -151,8 +151,8 @@
 			</div>
 		</div>
 
-		<script type="text/javascript" src="/repair_system/Public/js/jquery-2.2.4.min.js"></script>
-		<script type="text/javascript" src="/repair_system/Public/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="/github/repair_system/Public/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="/github/repair_system/Public/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			var router = {
 				action:function(controller){

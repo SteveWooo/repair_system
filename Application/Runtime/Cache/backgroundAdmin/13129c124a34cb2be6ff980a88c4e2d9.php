@@ -5,7 +5,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>南苑计协维修系统</title>
-		<link rel="stylesheet" type="text/css" href="/repair_system/Public/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="/github/repair_system/Public/css/bootstrap.min.css">
 		<style type="text/css">
 			.row{
 				margin:0 0 0 0;
@@ -28,7 +28,7 @@
 				<?php echo U('backgroundAdmin/User/logoutAjax');?>
 			</div>
 		</div>
-		<script type="text/javascript" src="/repair_system/Public/js/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="/github/repair_system/Public/js/jquery-2.2.4.min.js"></script>
 		<script type="text/javascript">
 			var logout = function(){
 				if(!confirm('是否确定登出？'))return ;
