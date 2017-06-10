@@ -25,7 +25,7 @@
 	                    <li class="nav-list active" name="welcome">
 	                        <a href="javascript:void(0)" onclick="router.action('welcome')">
 	                            <i class="glyphicon glyphicon-th-large"></i>
-	                            首页         
+	                            首页
 	                        </a>
 	                    </li>
 	                    <if condition="$admin['auth'] egt 4">
@@ -42,12 +42,12 @@
 		                        </ul>
 		                    </li>
 	                    </if>
-						
+
 						<if condition="$admin['auth'] egt 3">
 		                    <li class="nav-list" name="orderDistribute">
 		                        <a href="javascript:void(0)" onclick="router.action('orderDistribute')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            干事订单分配       
+		                            干事订单分配
 		                        </a>
 		                    </li>
 	                    </if>
@@ -65,20 +65,20 @@
 		                    </li>
 	                    </if>
 
-						<if condition="$admin['auth'] egt 2">
+						<if condition="$admin['auth'] egt 1">
 		                    <li class="nav-list" name="orderTask">
 		                        <a href="javascript:void(0)" onclick="router.action('orderTask')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            个人订单任务      
+		                            个人订单任务
 		                        </a>
 		                    </li>
 	                    </if>
-	 					
+
 	 					<if condition="$admin['auth'] egt 1">
 		 					<li class="nav-list" name="checkOrder">
 		                        <a href="javascript:void(0)" onclick="router.action('checkOrder')">
 		                            <i class="glyphicon glyphicon-credit-card"></i>
-		                            订单查询       
+		                            订单查询
 		                        </a>
 		                    </li>
 	                    </if>
@@ -88,7 +88,7 @@
 	                            校友组织模块
 	                        </a>
 	                    </li>
-	 
+
 	                    <li class="nav-list" name="../SchoolmateActivity">
 	                        <a href="javascript:void(0);" onclick="router.action('../SchoolmateActivity')">
 	                            <i class="glyphicon glyphicon-calendar"></i>
@@ -131,16 +131,16 @@
 	    </div>
 	    <div class="footer">
 	    	<div class="title">
-	    		code by SteveWoo. version:1.0.4 name:快来拿护甲包！
+	    		code by SteveWoo. version:1.1.1 name:跟上我的节拍
 	    		<br>
-	    		birthday:2016-11-22
+	    		birthday:2017-3-7
 	    	</div>
 	    </div>
-		
+
 		<div style="visibility: hidden" hidden>
 			<div id="checkOrder">
 				{:U('BackgroundAdmin/CheckOrder/checkOrderView')}
-			</div>	
+			</div>
 			<div id="welcome">
 				{:U('BackgroundAdmin/Index/welcome')}
 			</div>

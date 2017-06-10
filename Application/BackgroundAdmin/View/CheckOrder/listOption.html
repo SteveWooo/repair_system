@@ -61,6 +61,12 @@
 							</li>
 						</if>
 					</ul>
+          <if condition="$data['state'] eq '已完成'">
+            <h4>评价：</h4>
+            <div style="padding-left:20px">
+              {$data['judge']}
+            </div>
+          </if>
 					<if condition="$admin['auth'] egt 5">
 						<h4>修改订单状态：</h4>
 						<select name="state" id="">

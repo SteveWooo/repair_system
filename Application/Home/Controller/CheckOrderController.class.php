@@ -126,7 +126,6 @@ class CheckOrderController extends Controller {
 		$result = M('order_list')->where(array('id'=>$id))->setField('state', 3);
 	}
 	private function addOrderJudgeDb($data){
-		echo $data['content'];
 		M('order_judge')->add($data);
 	}
 	private function getOrderJudgeInput(){
@@ -155,7 +154,7 @@ class CheckOrderController extends Controller {
 		$this->checkIsAbleToJudge($input['order_id']);
 		$this->addOrderJudgeDb($input);
 		$this->setOrderState($input['order_id']);
-		// $this->successReturn('评价成功');
+		$this->successReturn('评价成功');
 	}
 
 	private function getOrderJudgePageInput(){

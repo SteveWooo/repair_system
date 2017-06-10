@@ -3,7 +3,7 @@ namespace backgroundAdmin\Controller;
 use Think\Controller;
 class UserController extends Controller {
     public function index(){
-        
+
     }
     private function successReturn($msg){
     	$res['msg'] = $msg;
@@ -183,7 +183,7 @@ class UserController extends Controller {
         $id = I('post.id');
         return $id;
     }
-        /* 
+        /*
         * 检查该管理员是否可以删除，如果有订单任务，则不可以删除。
         */
     private function checkAdminAbleToDeleted($id){
@@ -235,7 +235,7 @@ class UserController extends Controller {
                 break;
 
                 case '1':
-                    $admins[$key]['job'] = "实习";
+                    $admins[$key]['job'] = "老干事";
                 break;
             }
         }
@@ -248,5 +248,5 @@ class UserController extends Controller {
         $this->display();
     }
 
-    	
+
 }

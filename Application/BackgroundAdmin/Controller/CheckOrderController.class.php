@@ -91,6 +91,11 @@ class CheckOrderController extends Controller {
         foreach ($detail as $key => $value) {
             $data[$key] = $detail[$key];
         }
+        if($data['state'] == "已完成"){
+          //获取评价信息
+          $judge = M('order_judge')->where(array('order_id'=>$id))->find();
+          $data['judge'] = $judge['content'];
+        }
         $data['stateCode'] = $list['state'];
         $data['progress'] = ($data['stateCode'] + 1) * 25;
         return $data;
