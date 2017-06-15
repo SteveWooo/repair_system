@@ -102,13 +102,13 @@ class IndexController extends Controller {
         return $user;
     }
     public function addOrder(){
-        // $this->display('stop');
-        $this->checkLogin();
-        $types = $this->getServiceType();
-        $this->assign('types', $types);
-        $user = $this->getUserMsg();
-        $this->assign('user', $user);
-    	  $this->display();
+        $this->display('stop');
+        // $this->checkLogin();
+        // $types = $this->getServiceType();
+        // $this->assign('types', $types);
+        // $user = $this->getUserMsg();
+        // $this->assign('user', $user);
+    	  // $this->display();
     }
 
     /*
