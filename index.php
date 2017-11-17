@@ -24,6 +24,7 @@
 
 // // 引入ThinkPHP入口文件
 // require './ThinkPHP/ThinkPHP.php';
-echo "<h3>该服务已迁移到<a href='http://zgz.s1.natapp.cc/repair_system/Home/index/addOrder'>这里</a></h3>"
+
+echo "<html><head><meta charset='utf-8'></head><body><h3>该服务已迁移到<a href='http://zgz.s1.natapp.cc/repair_system/Home/index/addOrder'>这里</a></h3></body></html>";
 
 // 亲^_^ 后面不需要任何代码了 就是如此简单
